@@ -2,9 +2,6 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { FlagCard } from "./FlagCard";
 
-const API_URL_One =
-  "https://restcountries.com/v3.1/name/canada?fields=name,region,subregion,flags";
-
 const API_URL =
   "https://restcountries.com/v3.1/independent?status=true&fields=name,region,subregion,flags";
 
